@@ -39,6 +39,9 @@ cd api-geolocation
 **3) Instale os packages ( Isso pode levar alguns minutos )**
 
 ```
+yarn ou npm i
+
+```
 
 ## Estrutura do .env
 
