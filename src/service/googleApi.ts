@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { getLocationsDistance } from '@utils/functions'
-const key = 'AIzaSyBIO3ow9hTdOGF3IVOhPVhaFMnzkCPjQio'
+require('dotenv').config()
+const key = process.env.GOOGLE_API_KEY
 
 export const getLocations = async (address: string[]) => {
   try {
